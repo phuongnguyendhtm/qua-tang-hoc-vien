@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+.env
+
+# Python
+.venv*/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+__MACOSX/
+._*
+
+# Windows
+Thumbs.db
+
+# Local data
+02-freeup-content-agent/media_output/
+02-freeup-content-agent/browser_data/

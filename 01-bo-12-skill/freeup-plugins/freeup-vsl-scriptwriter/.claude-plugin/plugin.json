@@ -1,0 +1,9 @@
+{
+  "name": "freeup-vsl-scriptwriter",
+  "description": "FreeUp Plugin",
+  "version": "1.0.0",
+  "author": {
+    "name": "FreeUp",
+    "url": "https://assp.local"
+  }
+}

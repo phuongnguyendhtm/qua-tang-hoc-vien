@@ -1,0 +1,22 @@
+{
+  "name": "freeup-skills",
+  "owner": {
+    "name": "FreeUp - Agent Selling Super Powers",
+    "url": "https://assp.local"
+  },
+  "plugins": [
+    {"name": "freeup-foundation-builder", "source": "./freeup-foundation-builder"},
+    {"name": "freeup-avatar-builder", "source": "./freeup-avatar-builder"},
+    {"name": "freeup-brand-voice", "source": "./freeup-brand-voice"},
+    {"name": "freeup-hero-mechanism", "source": "./freeup-hero-mechanism"},
+    {"name": "freeup-money-model", "source": "./freeup-money-model"},
+    {"name": "freeup-offer-architect", "source": "./freeup-offer-architect"},
+    {"name": "freeup-hvco-creator", "source": "./freeup-hvco-creator"},
+    {"name": "freeup-email-closer", "source": "./freeup-email-closer"},
+    {"name": "freeup-follow-up-engine", "source": "./freeup-follow-up-engine"},
+    {"name": "freeup-funnel-strategist", "source": "./freeup-funnel-strategist"},
+    {"name": "freeup-ad-copy-machine", "source": "./freeup-ad-copy-machine"},
+    {"name": "freeup-vsl-scriptwriter", "source": "./freeup-vsl-scriptwriter"},
+    {"name": "freeup-sales-call-script", "source": "./freeup-sales-call-script"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": true,
+    "noEmit": true,
+    "lib": ["es2015"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["../reels_engine/node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "react": ["../reels_engine/node_modules/@types/react"],
+      "remotion": ["../reels_engine/node_modules/remotion"]
+    }
+  }
+}

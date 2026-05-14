@@ -1,0 +1,21 @@
+{
+  "founder": "Nguyễn Thị Việt Phương",
+  "brand_identity": {
+    "handle": "@freeup",
+    "colors": {
+      "accent": "#00A86B"
+    },
+    "fonts": {
+      "primary": "Montserrat",
+      "accent": "Roboto"
+    },
+    "visual_vibe": "Clean, modern, bright and professional. Warm lighting with soft gradients. Inspiring and trustworthy mood. Color palette balanced between light and bold blue accents.",
+    "watermark": {
+      "enabled": false,
+      "text": "FREEUP",
+      "logo_url": "file:///path/to/logo.png",
+      "bottom_margin": "20px",
+      "opacity": 0.5
+    }
+  }
+}
