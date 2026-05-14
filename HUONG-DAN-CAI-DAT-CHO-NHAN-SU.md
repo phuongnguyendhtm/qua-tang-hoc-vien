@@ -1,78 +1,101 @@
 # 📋 HƯỚNG DẪN CÀI ĐẶT CHO NHÂN SỰ
-## Cài quà tặng lên máy học viên — Cực kỳ đơn giản
+## Cài quà tặng lên máy học viên
 
-> Nhân sự chỉ cần làm **2 việc**: tải quà tặng về máy học viên, rồi dán prompt vào Antigravity.
+> Nhân sự làm **3 việc chuẩn bị**, rồi dán prompt vào Antigravity — AI tự cài hết.
 
 ---
 
-## Bước 1: Tải quà tặng về máy học viên
+## Chuẩn bị trước
+
+### 1️⃣ Cài Antigravity (Gemini CLI)
+Xem hướng dẫn tại: https://ai.google.dev/gemini-api/docs/gemini-cli
+
+### 2️⃣ Cài Node.js
+Tải tại https://nodejs.org → chọn **LTS** → cài mặc định (Next → Next → Install)
+
+### 3️⃣ Lấy 3 mã API Key
+
+| Mã | Cách lấy | Ghi chú |
+|----|----------|---------|
+| `GEMINI_API_KEY` | https://aistudio.google.com/apikey | **Bắt buộc** — Miễn phí |
+| `PEXELS_API_KEY` | https://www.pexels.com/api | Tùy chọn — Video B-Roll miễn phí |
+| `ELEVENLABS_API_KEY` | https://elevenlabs.io | Tùy chọn — Giọng đọc AI |
+
+---
+
+## Cài đặt
+
+### Bước 1: Tải quà tặng về máy
 
 Mở CMD/Terminal và gõ:
 ```
 git clone https://github.com/phuongnguyendhtm/qua-tang-hoc-vien.git
 ```
 
-> Nếu máy chưa có Git → vào https://github.com/phuongnguyendhtm/qua-tang-hoc-vien → bấm **Code** → **Download ZIP** → giải nén.
+> Không có Git? → vào https://github.com/phuongnguyendhtm/qua-tang-hoc-vien → bấm **Code** → **Download ZIP** → giải nén.
+
+### Bước 2: Mở Antigravity tại thư mục quà tặng
+
+```
+cd qua-tang-hoc-vien
+gemini
+```
+
+Dán **nguyên văn prompt bên dưới** vào Antigravity:
 
 ---
 
-## Bước 2: Mở Antigravity và dán prompt bên dưới
-
-Mở CMD tại thư mục `qua-tang-hoc-vien`, gõ `gemini` (hoặc mở bằng Cursor IDE), rồi **copy và dán nguyên văn prompt dưới đây** vào Antigravity:
-
----
-
-### 🤖 PROMPT CÀI ĐẶT (Copy nguyên khối dưới đây)
+### 🤖 PROMPT CÀI ĐẶT (Copy nguyên khối)
 
 ```
 Tôi là nhân sự đang cài đặt quà tặng cho học viên. Hãy giúp tôi chạy quy trình cài đặt theo đúng thứ tự sau:
 
 1. KIỂM TRA MÔI TRƯỜNG:
-   - Chạy "node --version" kiểm tra Node.js đã cài chưa (cần v18+)
-   - Nếu chưa có, hướng dẫn tôi tải tại https://nodejs.org (chọn LTS)
-   - Đợi tôi cài xong rồi mới tiếp tục
+   - Chạy "node --version" kiểm tra Node.js (cần v18+)
+   - Nếu chưa có, nhắc tôi cài tại https://nodejs.org
+   - Đợi tôi xong rồi mới tiếp
 
 2. CÀI ĐẶT CONTENT AGENT:
    - Di chuyển vào thư mục "02-freeup-content-agent"
    - Chạy "npm install" và đợi hoàn tất
    - Tạo file .env từ .env.example
    - Hỏi tôi từng API key để điền vào .env:
-     + ANTHROPIC_API_KEY (bắt buộc)
+     + GEMINI_API_KEY (bắt buộc)
      + PEXELS_API_KEY (tùy chọn, bỏ qua nếu chưa có)
      + ELEVENLABS_API_KEY (tùy chọn, bỏ qua nếu chưa có)
 
 3. TEST THỬ:
-   - Kiểm tra thư mục "01-bo-12-skill/freeup-plugins/" có đủ 12+ skill không
-   - Kiểm tra thư mục "02-freeup-content-agent/node_modules/" đã có chưa
-   - Kiểm tra file "02-freeup-content-agent/.env" đã có API key chưa
+   - Kiểm tra "01-bo-12-skill/freeup-plugins/" có đủ 12+ skill
+   - Kiểm tra "02-freeup-content-agent/node_modules/" đã có
+   - Kiểm tra "02-freeup-content-agent/.env" đã có API key
 
-4. BÁO CÁO KẾT QUẢ:
-   Sau khi xong, in ra bảng tóm tắt:
+4. BÁO CÁO:
+   In bảng tóm tắt:
    - Node.js: ✅/❌
    - Content Agent: ✅/❌
    - API Key: ✅/❌
    - Bộ 12 Skill: ✅/❌
 
-Bắt đầu từ bước 1 ngay bây giờ.
+Bắt đầu ngay.
 ```
 
 ---
 
 ## Xong!
 
-Sau khi Antigravity báo tất cả ✅, máy học viên đã sẵn sàng sử dụng.
+Khi Antigravity báo tất cả ✅ → máy học viên đã sẵn sàng.
 
-Học viên có thể bắt đầu dùng ngay bằng cách:
-- **Bộ 12 Skill:** Mở thư mục `01-bo-12-skill`, gõ `gemini`, rồi yêu cầu chạy skill
-- **Content Agent:** Mở thư mục `02-freeup-content-agent`, gõ `gemini`, rồi gõ `/setup`
+**Học viên bắt đầu dùng:**
+- **Bộ 12 Skill:** Mở `01-bo-12-skill` → `gemini` → yêu cầu chạy skill
+- **Content Agent:** Mở `02-freeup-content-agent` → `gemini` → gõ `/setup`
 
 ---
 
 ## 🚨 Lỗi thường gặp
 
-| Lỗi | Cách xử lý |
-|-----|-----------|
-| `'node' is not recognized` | Cài Node.js tại nodejs.org, restart CMD |
-| `'git' is not recognized` | Cài Git tại git-scm.com hoặc tải ZIP từ GitHub |
-| `npm install` bị treo | Kiểm tra mạng, thử lại |
-| `'gemini' is not recognized` | Cài Gemini CLI: `npm install -g @anthropic-ai/gemini-cli` |
+| Lỗi | Xử lý |
+|-----|-------|
+| `'node' is not recognized` | Cài Node.js, restart CMD |
+| `'git' is not recognized` | Tải ZIP từ GitHub thay vì clone |
+| `npm install` treo | Kiểm tra mạng, thử lại |
+| `'gemini' is not recognized` | Cài lại Antigravity theo link ở trên |

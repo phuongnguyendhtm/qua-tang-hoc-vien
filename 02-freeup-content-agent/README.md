@@ -23,7 +23,7 @@
 |-----|----------|
 | **Node.js 18+** | Tải tại https://nodejs.org → chọn LTS → cài mặc định |
 | **Antigravity** | [Hướng dẫn cài](https://ai.google.dev/gemini-api/docs/gemini-cli) |
-| **API Key Anthropic** | Đăng ký tại https://console.anthropic.com → API Keys → Create Key |
+| **Gemini API Key** | Lấy tại https://aistudio.google.com/apikey → Miễn phí |
 
 ### Bước 1: Mở thư mục này trong Terminal
 
@@ -56,7 +56,7 @@ Mở file `.env` bằng Notepad (hoặc bất kỳ text editor) và điền:
 
 ```env
 # BẮT BUỘC — Bộ não AI viết bài
-ANTHROPIC_API_KEY=sk-ant-xxxxx
+GEMINI_API_KEY=xxxxx
 
 # TÙY CHỌN — Video B-Roll miễn phí (đăng ký tại pexels.com/api)
 PEXELS_API_KEY=xxxxx
@@ -136,7 +136,7 @@ Gõ /auto_mode
 → Không. Chỉ cần Node.js.
 
 **Chi phí API bao nhiêu?**
-→ Anthropic: ~$5-10/tháng. Pexels: miễn phí. ElevenLabs: có gói miễn phí.
+→ Gemini: miễn phí (có giới hạn). Pexels: miễn phí. ElevenLabs: có gói miễn phí.
 
 **Đăng bài có bị Facebook khóa không?**
 → Hệ thống dùng trình duyệt riêng biệt (Profile Isolation), rất an toàn.
