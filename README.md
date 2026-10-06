@@ -10,7 +10,7 @@ Chào mừng bạn! Đây là **3 bộ công cụ AI** được tặng kèm khi 
 |---|----------|-------|---------|
 | 🎁 1 | **Bộ 12+ FreeUp Skills** | Xây nền tảng marketing từ A-Z bằng AI | [`01-bo-12-skill/`](./01-bo-12-skill/) |
 | 🎁 2 | **FreeUp Content Agent** | Cỗ máy tự động viết bài + thiết kế + đăng Facebook | [`02-freeup-content-agent/`](./02-freeup-content-agent/) |
-| 🎁 3 | **FREEUP Content 9B — bản học viên 1.2.2** | Quy trình content độc lập cho 9BizClaw, có lệnh tiếng Việt và kho thành phẩm riêng | [Repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b) |
+| 🎁 3 | **FREEUP Content 9B — bản học viên 1.3.0** | Quy trình content độc lập cho 9BizClaw: nguồn chuyên gia, lịch được duyệt và tự tạo bài/ảnh | [Repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b) |
 
 ### Dùng 9BizClaw
 
