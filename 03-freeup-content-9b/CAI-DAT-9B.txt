@@ -1,5 +1,5 @@
 Hãy tải bộ quà tặng hệ thống content học viên 1.1 từ URL:
-https://raw.githubusercontent.com/phuongnguyendhtm/qua-tang-hoc-vien/main/03-freeup-content-9b/distribution/FREEUP-CONTENT-9B-HOC-VIEN-v1.1.zip
+https://raw.githubusercontent.com/phuongnguyendhtm/freeup-content-9b/main/distribution/FREEUP-CONTENT-9B-HOC-VIEN-v1.1.zip
 
 Kiểm tra SHA-256 của ZIP phải đúng 450CB4B06548CCABAA7E0AF7473BCB30083567D959CA8337143B9E35747CD0B4. Nếu khác thì dừng. Sau khi tải đúng, hãy cài gói cho agent 9B đang dùng theo yêu cầu dưới đây.
 

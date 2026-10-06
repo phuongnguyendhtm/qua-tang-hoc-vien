@@ -10,11 +10,11 @@ Chào mừng bạn! Đây là **3 bộ công cụ AI** được tặng kèm khi 
 |---|----------|-------|---------|
 | 🎁 1 | **Bộ 12+ FreeUp Skills** | Xây nền tảng marketing từ A-Z bằng AI | [`01-bo-12-skill/`](./01-bo-12-skill/) |
 | 🎁 2 | **FreeUp Content Agent** | Cỗ máy tự động viết bài + thiết kế + đăng Facebook | [`02-freeup-content-agent/`](./02-freeup-content-agent/) |
-| 🎁 3 | **FREEUP Content 9B — bản học viên 1.1** | Quy trình content độc lập cho 9BizClaw, có lệnh tiếng Việt và kho thành phẩm riêng | [`03-freeup-content-9b/`](./03-freeup-content-9b/) |
+| 🎁 3 | **FREEUP Content 9B — bản học viên 1.1** | Quy trình content độc lập cho 9BizClaw, có lệnh tiếng Việt và kho thành phẩm riêng | [Repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b) |
 
 ### Dùng 9BizClaw
 
-👉 Mở [`03-freeup-content-9b/README.md`](./03-freeup-content-9b/README.md), sao chép câu lệnh cài vào chat 9B hoặc dùng bộ cài PowerShell. Bản 9B hoạt động độc lập; học viên không cần có hai bộ ở trên. Lệnh `/caidat` đọc hồ sơ doanh nghiệp đã có và chỉ hỏi phần còn thiếu.
+👉 Mở [FREEUP Content 9B — repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b), sao chép câu lệnh cài vào chat 9B hoặc dùng bộ cài PowerShell. Bản 9B hoạt động độc lập; học viên không cần có hai bộ ở trên. Lệnh `/caidat` đọc hồ sơ doanh nghiệp đã có và chỉ hỏi phần còn thiếu.
 
 ---
 
@@ -35,4 +35,4 @@ Chào mừng bạn! Đây là **3 bộ công cụ AI** được tặng kèm khi 
 
 👉 Xem [`HUONG-DAN-CAI-DAT-CHO-NHAN-SU.md`](./HUONG-DAN-CAI-DAT-CHO-NHAN-SU.md) — Hướng dẫn chi tiết từ A-Z để setup trên máy học viên, kèm checklist và xử lý lỗi.
 
-👉 Với 9BizClaw, dùng [`03-freeup-content-9b/README.md`](./03-freeup-content-9b/README.md).
+👉 Với 9BizClaw, dùng [FREEUP Content 9B — repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b).
