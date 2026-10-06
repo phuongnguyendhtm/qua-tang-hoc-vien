@@ -4,9 +4,9 @@ Bộ content 9B được phát triển và cập nhật tại **[phuongnguyendht
 
 - [Hướng dẫn cài và sử dụng](https://github.com/phuongnguyendhtm/freeup-content-9b)
 - [Câu lệnh cài vào chat 9B](https://raw.githubusercontent.com/phuongnguyendhtm/freeup-content-9b/main/CAI-DAT-9B.txt)
-- [Tải ZIP bản 1.2](https://raw.githubusercontent.com/phuongnguyendhtm/freeup-content-9b/main/distribution/FREEUP-CONTENT-9B-HOC-VIEN-v1.2.zip)
+- [Tải ZIP bản 1.2.1](https://raw.githubusercontent.com/phuongnguyendhtm/freeup-content-9b/main/distribution/FREEUP-CONTENT-9B-HOC-VIEN-v1.2.1.zip)
 
-Trên Windows: tải ZIP, giải nén nguyên gói, giữ 9B đang mở và rảnh, rồi mở `CAI-DAT-9B.cmd`. Sau khi bộ cài xác minh thành công, mở lượt/chat mới cùng agent và dùng `/caidat`.
+Tải ZIP, giải nén nguyên gói và giữ 9B đang mở, rảnh. Trên Windows mở `CAI-DAT-9B.cmd`; trên Mac mở `CAI-DAT-MAC.command` từ thư mục đã giải nén. Sau khi bộ cài xác minh thành công, mở lượt/chat mới cùng agent và dùng `/caidat`.
 
 Cài qua chat: sao chép toàn bộ câu lệnh ở liên kết trên. 9B khởi chạy bộ cài nền và kết thúc lượt hiện tại; ở lượt mới kiểm tra `job_file` rồi mới dùng `/caidat`. Hệ thống dùng lại hồ sơ doanh nghiệp đã có và chỉ hỏi phần còn thiếu. Tiếp theo có thể dùng `/vietbai`, `/minhhoa`, `/anhchu`, `/boanh` hoặc `/tudong`.
 
