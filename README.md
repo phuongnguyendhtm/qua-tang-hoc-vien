@@ -10,11 +10,11 @@ Chào mừng bạn! Đây là **3 bộ công cụ AI** được tặng kèm khi 
 |---|----------|-------|---------|
 | 🎁 1 | **Bộ 12+ FreeUp Skills** | Xây nền tảng marketing từ A-Z bằng AI | [`01-bo-12-skill/`](./01-bo-12-skill/) |
 | 🎁 2 | **FreeUp Content Agent** | Cỗ máy tự động viết bài + thiết kế + đăng Facebook | [`02-freeup-content-agent/`](./02-freeup-content-agent/) |
-| 🎁 3 | **FREEUP Content 9B — bản học viên 1.3.1** | Quy trình content độc lập cho 9BizClaw: nguồn chuyên gia theo từng doanh nghiệp, lịch được duyệt và tự tạo bài/ảnh | [Repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b) |
+| 🎁 3 | **FREEUP Content 9B — bản học viên 1.4.1** | Quy trình content độc lập cho 9BizClaw: 8 skill gộp theo chức năng, tạo nhiều định dạng theo doanh nghiệp học viên | [Repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b) |
 
 ### Dùng 9BizClaw
 
-👉 Mở [FREEUP Content 9B — repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b), tải ZIP và mở tệp cài tương ứng Windows hoặc Mac. Bản 9B hoạt động độc lập; học viên không cần có hai bộ ở trên. Lệnh `/caidat` đọc hồ sơ doanh nghiệp đã có và chỉ hỏi phần còn thiếu.
+👉 Mở [FREEUP Content 9B — repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b), tải ZIP và mở tệp cài tương ứng Windows hoặc Mac. Bản 9B hoạt động độc lập; học viên không cần có hai bộ ở trên. Lệnh `/thietlapcontent` đọc hồ sơ doanh nghiệp đã có và chỉ hỏi phần còn thiếu.
 
 ---
 
