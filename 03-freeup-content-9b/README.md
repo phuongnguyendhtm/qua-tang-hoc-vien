@@ -1,8 +1,8 @@
-# FREEUP Content 9B — bản học viên 1.5.0
+# FREEUP Content 9B — bản học viên 1.5.1
 
 Bộ content 9B phát triển tại [repository riêng](https://github.com/phuongnguyendhtm/freeup-content-9b). Gói độc lập cho doanh nghiệp của từng học viên, không cần hai bộ Antigravity trước đây.
 
-- [Tải ZIP 1.5.0](https://raw.githubusercontent.com/phuongnguyendhtm/freeup-content-9b/main/distribution/FREEUP-CONTENT-9B-HOC-VIEN-v1.5.0.zip)
+- [Tải ZIP 1.5.1](https://raw.githubusercontent.com/phuongnguyendhtm/freeup-content-9b/main/distribution/FREEUP-CONTENT-9B-HOC-VIEN-v1.5.1.zip)
 - [Hướng dẫn cài và sử dụng](https://github.com/phuongnguyendhtm/freeup-content-9b)
 - [Câu lệnh cài qua chat 9B](https://raw.githubusercontent.com/phuongnguyendhtm/freeup-content-9b/main/CAI-DAT-9B.txt)
 
@@ -18,6 +18,6 @@ Các ZIP cũ được giữ để liên kết đã gửi trước đây vẫn t�
 
 ## Bảng chọn bằng ảnh
 
-Sau khi cài bản 1.5.0, nhắn **hệ thống content** để xem bảng chọn bằng ảnh: 9 dạng content và lựa chọn 0 làm theo lịch. Chọn số kèm chủ đề; 9B trả ảnh hướng dẫn/lệnh mẫu rồi chạy đúng nhánh. [Xem bảng chọn và câu lệnh](https://github.com/phuongnguyendhtm/freeup-content-9b/blob/main/docs/BANG-CHON-CONTENT.md).
+Sau khi cài bản 1.5.1, nhắn **hệ thống content** để xem bảng chọn bằng ảnh: 9 dạng content và lựa chọn 0 làm theo lịch. Chọn số kèm chủ đề; 9B trả ảnh hướng dẫn/lệnh mẫu rồi chạy đúng nhánh. [Xem bảng chọn và câu lệnh](https://github.com/phuongnguyendhtm/freeup-content-9b/blob/main/docs/BANG-CHON-CONTENT.md).
 
-Ảnh hướng dẫn nằm ở help/content-menu/1.5.0 trong kho riêng; thành phẩm vẫn ở media_output. Ảnh là hướng dẫn để chọn bằng số/tên trong chat. Mở menu không tạo bài hoặc cấp quyền duyệt/đăng. Gói vẫn có 8 skill / 7 nhóm lệnh.
+Ảnh hướng dẫn nằm ở help/content-menu/1.5.1 trong kho riêng; thành phẩm vẫn ở media_output. Ảnh là hướng dẫn để chọn bằng số/tên trong chat. Mở menu không tạo bài hoặc cấp quyền duyệt/đăng. Gói vẫn có 8 skill / 7 nhóm lệnh.
